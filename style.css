@@ -162,3 +162,92 @@ header {
     display: inline-block;
     font-family: aquire;
 }
+
+/* navbar for smartphones */
+@media screen and (max-width: 460px){
+    .navigation {
+       
+        max-height: auto;
+        
+    }
+    
+    .nav-item a {
+        float: left;
+        display: inline;
+        text-align: center;
+        margin-inline: 3px;
+        font-size: 10px;
+        padding: 5px;
+
+    }
+    .nav-item a:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    .close-icon i {
+        font-size: 30px;
+        
+    }
+    
+    .bar-icon {
+        font-size: 60px;
+        display: inline-block;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+    
+    .brand {
+        font-size: 20px;
+    }
+}
+/* Search Box */
+.search-box{
+    border: solid 1px#52057b;
+    margin-top: 20px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 2px 3px #52057b;
+}
+.search-box select {
+    padding: 10px;
+}
+.search-box input {
+    padding: 10px;
+}
+.search-box button {
+    padding: 10px;
+    background-color: #fff;
+    color: #000000;
+}
+.search-box button:hover {
+    background-color: #000000;
+    color: #fff;
+    box-shadow: 1px 2px 3px #fff;
+}
+
+/* search box for smartphones */
+@media screen and (max-width:460px){
+    .search-box input, .search-box button, .search-box select{
+        min-width: 300px;
+        margin-top: 5px;
+
+    }
+}
+/* Forum info */
+.forum-info{
+    padding: 20px;
+    background-color: #111314;
+}
+.chart{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #52057b;
+    display: block;
+    text-align: center;
+}
