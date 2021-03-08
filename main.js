@@ -13,3 +13,12 @@ function showIconBar(){
     iconBar.setAttribute("style", "display: block;");
     navigation.classList.add("hide")
 }
+// Comment area
+function showComment(){
+    let commentArea = document.querySelector("#comment-area");
+    commentArea.setAttribute("style","display: block;");
+}
+function showreply(){
+    let replyArea = document.querySelector("#reply-area");
+    replyArea.setAttribute("style","display: block;");
+}
